@@ -2,23 +2,23 @@
 web5 schema, solely utilizing the .block extension to uniquely identify and safeguard completed, onchain blocks, strategically avoiding assigning ownership to smaller elements within said blocks on any given chain
 
 
-The concept of a `.block` Web5 schema for uniquely identifying and safeguarding completed, on-chain blocks across *any* blockchain, while *avoiding* ownership assignment to smaller elements within those blocks, is an interesting thought experiment that touches on core Web5 principles and blockchain architecture.
+The concept of a `.block` web5 schema for uniquely identifying and safeguarding completed, on-chain blocks across *any* blockchain, while *avoiding* ownership assignment to smaller elements within those blocks, is an interesting thought experiment that touches on core web5 principles and blockchain architecture.
 
-Here's how such a schema could conceptually work within the Web5 paradigm, along with its implications and challenges:
+Here's how such a schema could conceptually work within the web5 paradigm, along with its implications and challenges:
 
 ## Understanding Web5's Core Principles
 
-Before diving into the `.block` schema, let's recap Web5's foundational elements, as they are crucial for this concept:
+Before diving into the `.block` schema, let's recap web5's foundational elements, as they are crucial for this concept:
 
 * **Decentralized Identifiers (DIDs):** Self-owned and self-controlled digital identities.
 * **Verifiable Credentials (VCs):** Cryptographically secured and privacy-preserving digital proofs of attributes or claims.
 * **Decentralized Web Nodes (DWNs):** Personal data stores and message relays controlled by the DID owner, not a centralized entity.
 
-Web5 aims to put users in control of their identity and data, shifting away from reliance on centralized platforms and even from the token-centric focus often seen in Web3. Crucially, Web5 is *not* blockchain-specific; while it can leverage blockchains (especially for DID anchoring), its primary focus is on decentralized identity and data sovereignty.
+web5 aims to put users in control of their identity and data, shifting away from reliance on centralized platforms and even from the token-centric focus often seen in Web3. Crucially, web5 is *not* blockchain-specific; while it can leverage blockchains (especially for DID anchoring), its primary focus is on decentralized identity and data sovereignty.
 
 ## The `.block` Web5 Schema: Concept and Functionality
 
-The `.block` extension, in this context, wouldn't be a traditional file extension but rather a conceptual identifier or URI scheme within a Web5 context, specifically designed to reference and provide verifiable information about entire blockchain blocks.
+The `.block` extension, in this context, wouldn't be a traditional file extension but rather a conceptual identifier or URI scheme within a web5 context, specifically designed to reference and provide verifiable information about entire blockchain blocks.
 
 **Core Idea:**
 
@@ -76,7 +76,7 @@ Instead of a user "owning" a `.block` file in the traditional sense, the `.block
 
 ## Challenges and Considerations:
 
-1.  **Resolution Mechanism:** How would a Web5 application or agent "resolve" a `blockchain://` URI? It would require a standardized mechanism (perhaps part of the Web5 SDK) to:
+1.  **Resolution Mechanism:** How would a web5 application or agent "resolve" a `blockchain://` URI? It would require a standardized mechanism (perhaps part of the web5 SDK) to:
     * Parse the URI to extract `chain_type`, `network_id`, and `block_identifier`.
     * Connect to the appropriate blockchain's node/API.
     * Fetch the block data (or its hash) to verify consistency with the VC.
@@ -91,4 +91,4 @@ Instead of a user "owning" a `.block` file in the traditional sense, the `.block
 
 6.  **"Safeguarding" vs. "Identifying":** The `.block` schema primarily *identifies* and *verifies the integrity* of a completed block. "Safeguarding" in this context refers to cryptographic assurance and verifiable referencing, not preventing tampering with the blockchain itself (which is handled by the blockchain's consensus mechanism).
 
-In essence, the `.block` Web5 schema would establish a new layer of verifiable addressing and attestation for fundamental units of blockchain data (blocks), enabling a more robust, decentralized, and user-centric approach to interacting with and proving facts about blockchain history, all while respecting the inherent decentralized and ownerless nature of the blocks themselves.
+In essence, the `.block` web5 schema would establish a new layer of verifiable addressing and attestation for fundamental units of blockchain data (blocks), enabling a more robust, decentralized, and user-centric approach to interacting with and proving facts about blockchain history, all while respecting the inherent decentralized and ownerless nature of the blocks themselves.
