@@ -22,7 +22,7 @@ The `.block` extension, in this context, wouldn't be a traditional file extensio
 
 **Core Idea:**
 
-Instead of a user "owning" a `.block` file in the traditional sense, the `.block` schema would enable a **DID (Decentralized Identifier)** to issue or attest to a **VC (Verifiable Credential)** that cryptographically points to a specific, completed, and immutable block on *any* blockchain. The `.block` would serve as a well-defined, standardized way to refer to this block.
+Instead of a user "owning" a `.block` file in the traditional sense, the `.block` schema would enable a **DID (Decentralized Identifier)** to issue or attest to a **VC (Verifiable Credential)** that cryptographically points to a specific, completed and immutable block on *any* blockchain. The `.block` would serve as a well-defined, standardized way to refer to this block.
 
 **How it would work:**
 
