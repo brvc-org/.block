@@ -1,5 +1,14 @@
 # .block
+
 web5 schema, solely utilizing the .block extension to uniquely identify and safeguard completed, onchain blocks, strategically avoiding assigning ownership to smaller elements within said blocks on any given chain
+
+We present a unique opportunity to address/achieve this by creating custom, ownership-free dDNS (decentralized Domain Name System) solutions: the .block extension and its ability to act as conceptual pointers issuing DIDs offering verifiable claims of any completed block anywhere on any given chain, leaving ownership to its rightful owner(s): network consensus itself: remaining a truly peer-to-peer public good.
+
+Web1, web2 and even web2.5's respective Domain Name System (DNS) version(s) still to this day pos(s)e a fundamental challenge for the decentralized nature of the Bitcoin blockchain.  Web5 presents a unique opportunity to address this by creating a custom, blockchain-native DNS solution. Even is just as a potential intra-web3 or -web5 feature for researchers and developers to study the blockchain, somewhat akin network engineers surveying server-to-server traffic, this system would conveniently deviate from the traditional domain name model, solely utilizing the .block extension to uniquely identify entire Bitcoin blocks in the future; this would also, its worth noting, be a huge potential benefit to developers, lawmakers and casual end-users alike.
+
+Put simply, the block designation strategically avoids assigning ownership to smaller elements within blocks. This mitigates potential legal battles and disagreements arising from the ongoing debate surrounding data ownership within the blockchain and individual blocks. By not creating micro-domains for individual transactions or allowing bad actors to create micro-domains for nefarious purposes, and by not creating micro-domains for Unspent Transaction Outputs (UTXOs), we pre-empt said bad actors from exploiting legal loopholes to claim ownership of specific data points. This approach safeguards the permissionless nature of the blockchain. Data remains a public good, freely accessible for analysis and verification by academics, researchers and the broader Bitcoin community.
+
+Traditional DNS systems could potentially be used to establish ownership. This seemingly simple approach unlocks significant technical benefits on multiple fronts.
 
 
 The concept of a `.block` web5 schema for uniquely identifying and safeguarding completed, on-chain blocks across *any* blockchain, while *avoiding* ownership assignment to smaller elements within those blocks, is an interesting thought experiment that touches on core web5 principles and blockchain architecture.
